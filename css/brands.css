@@ -57,6 +57,7 @@ button:hover,
 .button.button-github {
   color: #ffffff;
   background-color: #000000;
+  border: 0.75px solid #7f7f7f;
 }
 .button.button-github:hover,
 .button.button-github:focus {
