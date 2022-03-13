@@ -35,7 +35,13 @@
   .columns:first-child {
     margin-left: 0;
   }
+  .profile
+  {
+    width: 150px;
+    height: 150px;
+  }
 }
+
 
 
 
@@ -68,6 +74,8 @@ h1 {
     line-height: 96px;
   }
 }
+
+
 
 p {
   margin-top: 0;
