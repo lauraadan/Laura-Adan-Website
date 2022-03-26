@@ -48,7 +48,11 @@
 html {
   font-size: 100%;
   color-scheme: light dark;
+  -webkit-color-scheme: light dark;
+  -moz-color-scheme: light dark;
+  -ms-color-scheme: light dark;
 }
+
 body {
   font-size: 18px;
   line-height: 24px;
@@ -63,7 +67,7 @@ h1 {
   font-weight: 800;
 }
 h1 {
-  font-size: 24px;
+  font-size: 40px;
   line-height: 64px;
   letter-spacing: 0;
 }
@@ -74,8 +78,6 @@ h1 {
     line-height: 96px;
   }
 }
-
-
 
 p {
   margin-top: 0;
@@ -90,7 +92,7 @@ button,
 
 hr {
   margin-top: 0rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.5rem;
     border-width: 0;
     border-top: 1px solid #6c88a2;
     width: 75%;

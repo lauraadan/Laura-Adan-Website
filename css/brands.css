@@ -42,7 +42,6 @@ button:hover,
   height: 20px;
 }
 
-
 .button.button-default {
   color: #ffffff;
   background: linear-gradient( 99deg,  rgb(140, 33, 103) 10.6%, rgba(28,28,28,1) 118% );
@@ -61,6 +60,19 @@ button:hover,
 }
 .button.button-github:hover,
 .button.button-github:focus {
+  filter: brightness(80%);
+}
+
+/*  Descargar CV */
+
+.button.button-cv{
+  color: #ffffff;
+  background-color: #1a3735;
+  margin-top: 20px;
+}
+
+.button.button-cv:hover,
+.button.button-cv:focus {
   filter: brightness(80%);
 }
 
@@ -84,17 +96,6 @@ button:hover,
 .button.button-linked:focus {
   filter: brightness(90%);
 }
-
-/* Twitter */
-.button.button-twit {
-  color: #ffffff;
-  background-image: linear-gradient(-20deg, #2b4368, #5f7e7e);
-}
-.button.button-twit:hover,
-.button.button-twit:focus {
-  filter: brightness(90%);
-}
-
 
 
 
